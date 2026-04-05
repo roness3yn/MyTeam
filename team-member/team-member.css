@@ -1,0 +1,19 @@
+.member{
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem;
+    background: var(--member-bg,#2a2a2a);
+    border-radius: 8px;
+    color: #ffffff; 
+
+    .avatar{
+        height: 48px;
+        border-radius: 50%;
+    }
+    
+    .role{
+        opacity: 0.7;
+        margin: 0;
+    }
+}
+
